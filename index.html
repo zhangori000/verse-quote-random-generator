@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verse Generator</title>
+    <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=css-tricks.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <div class="quotes-container">
+            <!-- loader
+            <div class="loader" id="loader"></div> -->
+            <div class="quote-container" id="quote-container">
+                <!-- quote -->
+                <div class="quote-text">
+                    <i class="fas fa-quote-left"></i>
+                    <span id="quote">Refresh page if I stay here...!</span>
+                </div>
+                <!-- author -->
+                <div class="quote-author">
+                    <span id="author">Angry Computer</span>
+                </div>
+                <div class="button-container">
+                    <!-- <a class="button gmail-button" id="gmail" title="Gmail this to someone" onClick="javascript:window.open('mailto:mail@domain.com', 'mail'); event.preventDefault()" href="mailto:mail@domain.com"><i class="far fa-envelope"></i></a> -->
+                    <button class="gmail-button" id="gmail" title="Gmail this to someone!">
+                        <i class="far fa-envelope"></i>
+                    </button>
+                    <button id="new-quote">New Quote</button>
+                </div>
+            </div>
+            <div class="quote-container" id="verse-container">
+                <div class="styled-input">
+                    <input type="text" required />
+                    <label>selecting random verse from:</label>
+                    <span></span>
+                </div>
+                <!-- quote -->
+                <div class="quote-text">
+                    <i class="fas fa-quote-left"></i>
+                    <span id="verse">MY CAR MY RULES!</span>
+                </div>
+                <!-- author -->
+                <div class="quote-author">
+                    <span id="passage">Kyle the Mighty</span>
+                </div>
+                <div class="button-container">
+                    <button class="gmail-button" id="gmail-verse" title="Gmail this to someone!">
+                        <i class="far fa-envelope"></i>
+                    </button>
+                    <button id="new-verse">New Quote</button>
+                </div>
+            </div>
+        </div>
+        <div class="information">
+            <p> when you click the email button, the text automatically gets copied into your clipboard. Simply paste it.</p>
+        </div>
+    </div>
+    
+    
+    
+    
+    <!-- script -->
+    <script src="script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+</html>
