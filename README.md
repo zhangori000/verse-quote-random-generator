@@ -1,5 +1,6 @@
 ﻿# verse-quote-random-generator
 
+Github pages link: https://zhangori000.github.io/verse-quote-random-generator/
 Generates a quote from the world, and a quote from the bible.
 
 There are multiple ways to make this app better, but I will do so later:
